@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Motion, as code</title>
+<link rel="stylesheet" href="/runtime/film.css">
+<style>
+  /* The sine look: dark ink, cream text, one yellow wave. Colours are custom
+     properties, so the editor can change them from film.json. */
+  @font-face { font-family: "Josefin Sans"; src: url("/runtime/JosefinSans-VF.ttf") format("truetype"); font-weight: 100 700; }
+  :root { --bg: #131313; --fg: #ebe8e1; --muted: #97948d; --accent: #f2c14e; --card: #1e1e1d; --blue: #c9dcee; }
+  #stage { font-family: "Josefin Sans", system-ui, sans-serif; color: var(--fg); }
+  .center { display: grid; place-content: center; text-align: center; gap: 28px; }
+  h1 { font-size: 150px; font-weight: 700; margin: 0; letter-spacing: -2px; }
+  .sub { font-size: 52px; color: var(--accent); margin: 0; font-weight: 600; }
+  .wave { display: block; margin: 10px auto 0; }
+  .steps { display: grid; gap: 40px; place-content: center; height: 100%; }
+  .step { display: flex; gap: 36px; align-items: center; width: 1420px; background: var(--card);
+    border: 2px solid #3c3c39; border-radius: 28px; padding: 40px 52px; font-size: 58px; font-weight: 600; }
+  .step .n { color: var(--accent); font-weight: 700; }
+  .close1 { font-size: 120px; font-weight: 700; margin: 0; }
+  .close2 { font-size: 64px; color: var(--blue); margin: 0; font-weight: 600; }
+</style>
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+    <section data-scene="Wake" class="center">
+      <h1 id="title" data-text="title">Motion, as code</h1>
+      <p class="sub" id="sub" data-text="sub">a film written like a program</p>
+      <svg class="wave" id="wave1" viewBox="0 0 1920 120" width="1400" height="88" aria-hidden="true"><path d="M 0 60.0 L 10 63.7 L 20 67.3 L 30 70.8 L 40 74.1 L 50 77.1 L 60 79.9 L 70 82.3 L 80 84.3 L 90 85.9 L 100 87.1 L 110 87.8 L 120 88.0 L 130 87.7 L 140 87.0 L 150 85.8 L 160 84.1 L 170 82.0 L 180 79.6 L 190 76.8 L 200 73.7 L 210 70.3 L 220 66.8 L 230 63.2 L 240 59.5 L 250 55.9 L 260 52.3 L 270 48.8 L 280 45.5 L 290 42.5 L 300 39.8 L 310 37.4 L 320 35.5 L 330 33.9 L 340 32.8 L 350 32.2 L 360 32.0 L 370 32.3 L 380 33.2 L 390 34.4 L 400 36.1 L 410 38.3 L 420 40.8 L 430 43.6 L 440 46.7 L 450 50.1 L 460 53.6 L 470 57.2 L 480 60.9 L 490 64.6 L 500 68.2 L 510 71.6 L 520 74.8 L 530 77.8 L 540 80.5 L 550 82.8 L 560 84.8 L 570 86.3 L 580 87.3 L 590 87.9 L 600 88.0 L 610 87.6 L 620 86.7 L 630 85.4 L 640 83.6 L 650 81.4 L 660 78.9 L 670 76.0 L 680 72.9 L 690 69.5 L 700 66.0 L 710 62.3 L 720 58.6 L 730 55.0 L 740 51.4 L 750 48.0 L 760 44.8 L 770 41.8 L 780 39.2 L 790 36.9 L 800 35.0 L 810 33.6 L 820 32.6 L 830 32.1 L 840 32.0 L 850 32.5 L 860 33.4 L 870 34.8 L 880 36.6 L 890 38.9 L 900 41.4 L 910 44.4 L 920 47.5 L 930 50.9 L 940 54.5 L 950 58.1 L 960 61.8 L 970 65.5 L 980 69.0 L 990 72.4 L 1000 75.6 L 1010 78.5 L 1020 81.1 L 1030 83.4 L 1040 85.2 L 1050 86.6 L 1060 87.5 L 1070 88.0 L 1080 87.9 L 1090 87.4 L 1100 86.4 L 1110 85.0 L 1120 83.1 L 1130 80.8 L 1140 78.2 L 1150 75.3 L 1160 72.0 L 1170 68.6 L 1180 65.1 L 1190 61.4 L 1200 57.7 L 1210 54.1 L 1220 50.5 L 1230 47.2 L 1240 44.0 L 1250 41.1 L 1260 38.6 L 1270 36.4 L 1280 34.6 L 1290 33.3 L 1300 32.4 L 1310 32.0 L 1320 32.1 L 1330 32.7 L 1340 33.7 L 1350 35.2 L 1360 37.1 L 1370 39.5 L 1380 42.1 L 1390 45.1 L 1400 48.4 L 1410 51.8 L 1420 55.4 L 1430 59.1 L 1440 62.7 L 1450 66.4 L 1460 69.9 L 1470 73.2 L 1480 76.4 L 1490 79.2 L 1500 81.7 L 1510 83.8 L 1520 85.6 L 1530 86.8 L 1540 87.7 L 1550 88.0 L 1560 87.8 L 1570 87.2 L 1580 86.1 L 1590 84.6 L 1600 82.6 L 1610 80.2 L 1620 77.5 L 1630 74.5 L 1640 71.2 L 1650 67.8 L 1660 64.2 L 1670 60.5 L 1680 56.8 L 1690 53.2 L 1700 49.7 L 1710 46.4 L 1720 43.3 L 1730 40.5 L 1740 38.0 L 1750 35.9 L 1760 34.3 L 1770 33.0 L 1780 32.3 L 1790 32.0 L 1800 32.2 L 1810 32.9 L 1820 34.1 L 1830 35.7 L 1840 37.7 L 1850 40.1 L 1860 42.9 L 1870 45.9 L 1880 49.2 L 1890 52.7 L 1900 56.3 L 1910 60.0 L 1920 63.6" fill="none" stroke="#f2c14e" stroke-width="5"/></svg>
+    </section>
+    <section data-scene="Idea">
+      <div class="steps">
+        <div class="step" id="s1"><span class="n">1</span><span data-text="step1">Words live in film.json</span></div>
+        <div class="step" id="s2"><span class="n">2</span><span data-text="step2">Motion plays the timeline</span></div>
+        <div class="step" id="s3"><span class="n">3</span><span data-text="step3">Chrome and ffmpeg make the MP4</span></div>
+      </div>
+    </section>
+    <section data-scene="Close" class="center">
+      <p class="close1" id="close1" data-text="close1">Free. On your machine.</p>
+      <p class="close2" id="close2" data-text="close2">motion-reel</p>
+      <svg class="wave" id="wave2" viewBox="0 0 1920 120" width="1400" height="88" aria-hidden="true"><path d="M 0 60.0 L 10 63.7 L 20 67.3 L 30 70.8 L 40 74.1 L 50 77.1 L 60 79.9 L 70 82.3 L 80 84.3 L 90 85.9 L 100 87.1 L 110 87.8 L 120 88.0 L 130 87.7 L 140 87.0 L 150 85.8 L 160 84.1 L 170 82.0 L 180 79.6 L 190 76.8 L 200 73.7 L 210 70.3 L 220 66.8 L 230 63.2 L 240 59.5 L 250 55.9 L 260 52.3 L 270 48.8 L 280 45.5 L 290 42.5 L 300 39.8 L 310 37.4 L 320 35.5 L 330 33.9 L 340 32.8 L 350 32.2 L 360 32.0 L 370 32.3 L 380 33.2 L 390 34.4 L 400 36.1 L 410 38.3 L 420 40.8 L 430 43.6 L 440 46.7 L 450 50.1 L 460 53.6 L 470 57.2 L 480 60.9 L 490 64.6 L 500 68.2 L 510 71.6 L 520 74.8 L 530 77.8 L 540 80.5 L 550 82.8 L 560 84.8 L 570 86.3 L 580 87.3 L 590 87.9 L 600 88.0 L 610 87.6 L 620 86.7 L 630 85.4 L 640 83.6 L 650 81.4 L 660 78.9 L 670 76.0 L 680 72.9 L 690 69.5 L 700 66.0 L 710 62.3 L 720 58.6 L 730 55.0 L 740 51.4 L 750 48.0 L 760 44.8 L 770 41.8 L 780 39.2 L 790 36.9 L 800 35.0 L 810 33.6 L 820 32.6 L 830 32.1 L 840 32.0 L 850 32.5 L 860 33.4 L 870 34.8 L 880 36.6 L 890 38.9 L 900 41.4 L 910 44.4 L 920 47.5 L 930 50.9 L 940 54.5 L 950 58.1 L 960 61.8 L 970 65.5 L 980 69.0 L 990 72.4 L 1000 75.6 L 1010 78.5 L 1020 81.1 L 1030 83.4 L 1040 85.2 L 1050 86.6 L 1060 87.5 L 1070 88.0 L 1080 87.9 L 1090 87.4 L 1100 86.4 L 1110 85.0 L 1120 83.1 L 1130 80.8 L 1140 78.2 L 1150 75.3 L 1160 72.0 L 1170 68.6 L 1180 65.1 L 1190 61.4 L 1200 57.7 L 1210 54.1 L 1220 50.5 L 1230 47.2 L 1240 44.0 L 1250 41.1 L 1260 38.6 L 1270 36.4 L 1280 34.6 L 1290 33.3 L 1300 32.4 L 1310 32.0 L 1320 32.1 L 1330 32.7 L 1340 33.7 L 1350 35.2 L 1360 37.1 L 1370 39.5 L 1380 42.1 L 1390 45.1 L 1400 48.4 L 1410 51.8 L 1420 55.4 L 1430 59.1 L 1440 62.7 L 1450 66.4 L 1460 69.9 L 1470 73.2 L 1480 76.4 L 1490 79.2 L 1500 81.7 L 1510 83.8 L 1520 85.6 L 1530 86.8 L 1540 87.7 L 1550 88.0 L 1560 87.8 L 1570 87.2 L 1580 86.1 L 1590 84.6 L 1600 82.6 L 1610 80.2 L 1620 77.5 L 1630 74.5 L 1640 71.2 L 1650 67.8 L 1660 64.2 L 1670 60.5 L 1680 56.8 L 1690 53.2 L 1700 49.7 L 1710 46.4 L 1720 43.3 L 1730 40.5 L 1740 38.0 L 1750 35.9 L 1760 34.3 L 1770 33.0 L 1780 32.3 L 1790 32.0 L 1800 32.2 L 1810 32.9 L 1820 34.1 L 1830 35.7 L 1840 37.7 L 1850 40.1 L 1860 42.9 L 1870 45.9 L 1880 49.2 L 1890 52.7 L 1900 56.3 L 1910 60.0 L 1920 63.6" fill="none" stroke="#f2c14e" stroke-width="5"/></svg>
+    </section>
+  </div>
+</div>
+<script src="/runtime/motion.js"></script>
+<script type="module">
+import { film } from "/runtime/player.js";
+
+const spring = (bounce = 0.25, visualDuration = 0.6) => ({ type: "spring", bounce, visualDuration });
+
+film({
+  scenes: [
+    { name: "Wake", duration: 2.5,
+      play: () => [
+        ["#title", { opacity: [0, 1], y: [40, 0] }, { ...spring(0.2), at: 0.2 }],
+        ["#sub", { opacity: [0, 1], y: [24, 0] }, { ...spring(0.2), at: 0.5 }],
+        ["#wave1", { opacity: [0, 1] }, { duration: 0.6, at: 0.9 }],
+      ] },
+    { name: "Idea", duration: 5,
+      play: () => [
+        ["#s1", { opacity: [0, 1], y: [60, 0] }, { ...spring(), at: 0.2 }],
+        ["#s2", { opacity: [0, 1], y: [60, 0] }, { ...spring(), at: 1.4 }],
+        ["#s3", { opacity: [0, 1], y: [60, 0] }, { ...spring(), at: 2.6 }],
+      ] },
+    { name: "Close", duration: 2.5,
+      play: () => [
+        ["#close1", { opacity: [0, 1], y: [40, 0] }, { ...spring(0.2), at: 0.2 }],
+        ["#close2", { opacity: [0, 1], y: [24, 0] }, { ...spring(0.2), at: 0.6 }],
+        ["#wave2", { opacity: [0, 1] }, { duration: 0.6, at: 0.9 }],
+      ] },
+  ],
+});
+</script>
+</body>
+</html>
