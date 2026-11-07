@@ -4,7 +4,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 
 ## Skills
 
-- **Claude Motion for Pro** — coming 2026-11-07. Animated explainers on any Claude Code plan, even though Claude Motion itself is Team/Enterprise only. First skill in this repo.
+- **Claude Motion for Pro** — [motion-reel](motion-reel): animated explainers on any Claude Code plan, even though Claude Motion itself is Team/Enterprise only. First skill in this repo.
 
 ## Install
 
