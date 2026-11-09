@@ -5,6 +5,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 ## Skills
 
 - **Claude Motion for Pro** — [motion-reel](motion-reel): animated explainers on any Claude Code plan, even though Claude Motion itself is Team/Enterprise only. First skill in this repo.
+- **Claude Code secret-leak guard** — [claude-guard](claude-guard): audit a repo for secrets Claude Code's "Don't Ask Again" saved into settings files, and fix them. Second skill in this repo.
 
 ## Install
 
