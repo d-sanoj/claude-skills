@@ -6,6 +6,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 
 - **Claude Motion for Pro** — [motion-reel](motion-reel): animated explainers on any Claude Code plan, even though Claude Motion itself is Team/Enterprise only. First skill in this repo.
 - **Claude Code secret-leak guard** — [claude-guard](claude-guard): audit a repo for secrets Claude Code's "Don't Ask Again" saved into settings files, and fix them. Second skill in this repo.
+- **Model regression watcher** — [nerf-watch](nerf-watch): a frozen 8-task suite that scores your coding agent week to week, so when a model "feels nerfed" you have a number instead of a vibe. Third skill in this repo.
 
 ## Install
 

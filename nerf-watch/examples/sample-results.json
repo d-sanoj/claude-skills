@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-11",
+  "model": "stub",
+  "effort": "medium",
+  "agent_cmd": "python3 /home/hatch/workspace/claude-skills-work/nerf-watch/scripts/stub_agent.py",
+  "cli_version": "stub-agent 0.1 (test double for claude)",
+  "tasks": [
+    {
+      "task": "median",
+      "title": "Implement median()",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "checks pass",
+          "passed": true,
+          "detail": "all median checks passed"
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.1
+    },
+    {
+      "task": "off-by-one",
+      "title": "Fix the off-by-one sum",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "prints 55",
+          "passed": true,
+          "detail": "55"
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.1
+    },
+    {
+      "task": "read-then-answer",
+      "title": "Answer from what you just read",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "names the newest figure",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "desc": "does not name the old figure",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.0
+    },
+    {
+      "task": "csv-sum",
+      "title": "Sum one column, filtered",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "total is 335.75",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.0
+    },
+    {
+      "task": "config-typo",
+      "title": "Fix the crashing startup",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "prints ready",
+          "passed": true,
+          "detail": "ready"
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.1
+    },
+    {
+      "task": "retry-explain",
+      "title": "Explain the retry helper",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "names 3 attempts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "desc": "names backoff",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.0
+    },
+    {
+      "task": "first-even",
+      "title": "Empty input should return None",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "the new test passes",
+          "passed": true,
+          "detail": "all first_even checks passed"
+        },
+        {
+          "desc": "empty and no-even return None",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.1
+    },
+    {
+      "task": "refactor-dup",
+      "title": "Remove the duplicated totals",
+      "passed": true,
+      "checks": [
+        {
+          "desc": "behavior unchanged (185.0)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "desc": "discount logic appears once",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "cost_usd": 0.0,
+      "error": "",
+      "seconds": 0.1
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}

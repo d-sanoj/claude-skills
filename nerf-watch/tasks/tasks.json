@@ -1,0 +1,134 @@
+{
+  "notes": "Frozen task set for nerf-watch. Do not edit a task's prompt, fixture, or checks once it has a logged run \u2014 a changed task is a new task, and it breaks week-to-week comparison. To change the suite, add a new task with a new id and keep the old one.",
+  "tasks": [
+    {
+      "checks": [
+        {
+          "cmd": "python3 check_stats.py",
+          "desc": "checks pass",
+          "type": "shell"
+        }
+      ],
+      "fixture": "median",
+      "id": "median",
+      "prompt": "In stats.py, implement median(xs): return the median of a list of numbers. For an even-length list, return the average of the two middle values. The checks in check_stats.py describe the expected behavior \u2014 make them pass.",
+      "title": "Implement median()"
+    },
+    {
+      "checks": [
+        {
+          "cmd": "python3 counter.py",
+          "desc": "prints 55",
+          "stdout_equals": "55",
+          "type": "shell"
+        }
+      ],
+      "fixture": "off-by-one",
+      "id": "off-by-one",
+      "prompt": "counter.py should print the sum of the numbers 1 through 10. Right now it prints the wrong number. Fix it so `python counter.py` prints 55.",
+      "title": "Fix the off-by-one sum"
+    },
+    {
+      "checks": [
+        {
+          "desc": "names the newest figure",
+          "text": "47,800",
+          "type": "output_contains"
+        },
+        {
+          "desc": "does not name the old figure",
+          "text": "41,200",
+          "type": "output_not_contains"
+        }
+      ],
+      "fixture": "read-then-answer",
+      "id": "read-then-answer",
+      "prompt": "Read notes.md. What is the signup figure for the newest week? Answer with just the number.",
+      "title": "Answer from what you just read"
+    },
+    {
+      "checks": [
+        {
+          "desc": "total is 335.75",
+          "text": "335.75",
+          "type": "output_contains"
+        }
+      ],
+      "fixture": "csv-sum",
+      "id": "csv-sum",
+      "prompt": "Using sales.csv, add up the amount column for rows where status is paid, and print the total.",
+      "title": "Sum one column, filtered"
+    },
+    {
+      "checks": [
+        {
+          "cmd": "python3 app.py",
+          "desc": "prints ready",
+          "stdout_contains": "ready",
+          "type": "shell"
+        }
+      ],
+      "fixture": "config-typo",
+      "id": "config-typo",
+      "prompt": "app.py crashes on startup. Find the bug and fix it so `python app.py` prints 'ready'.",
+      "title": "Fix the crashing startup"
+    },
+    {
+      "checks": [
+        {
+          "desc": "names 3 attempts",
+          "file": "answer.txt",
+          "text": "3 attempts",
+          "type": "file_contains"
+        },
+        {
+          "desc": "names backoff",
+          "file": "answer.txt",
+          "text": "backoff",
+          "type": "file_contains"
+        }
+      ],
+      "fixture": "retry-explain",
+      "id": "retry-explain",
+      "prompt": "Read retry.py. In one short paragraph, explain what retry_with_backoff does and after how many attempts it gives up. Write the paragraph to answer.txt.",
+      "title": "Explain the retry helper"
+    },
+    {
+      "checks": [
+        {
+          "cmd": "python3 test_evens.py",
+          "desc": "the new test passes",
+          "type": "shell"
+        },
+        {
+          "cmd": "python3 -c \"from evens import first_even; assert first_even([]) is None; assert first_even([1, 3]) is None\"",
+          "desc": "empty and no-even return None",
+          "type": "shell"
+        }
+      ],
+      "fixture": "first-even",
+      "id": "first-even",
+      "prompt": "first_even([]) currently raises ValueError. Change evens.py so an empty list \u2014 or a list with no even number \u2014 returns None instead. Add a test file test_evens.py (a plain script with asserts, runnable with `python3 test_evens.py`) that checks first_even([]) is None.",
+      "title": "Empty input should return None"
+    },
+    {
+      "checks": [
+        {
+          "cmd": "python3 -c \"from pricing import invoice_total, cart_total; assert invoice_total([50, 150]) == cart_total([50, 150]) == 185.0\"",
+          "desc": "behavior unchanged (185.0)",
+          "type": "shell"
+        },
+        {
+          "cmd": "python3 -c \"s = open('pricing.py').read(); assert s.count('price * 0.9') == 1, 'discount logic still duplicated'\"",
+          "desc": "discount logic appears once",
+          "type": "shell"
+        }
+      ],
+      "fixture": "refactor-dup",
+      "id": "refactor-dup",
+      "prompt": "invoice_total and cart_total in pricing.py are identical. Extract the shared logic into one helper function and make both call it. Keep the behavior identical.",
+      "title": "Remove the duplicated totals"
+    }
+  ],
+  "version": 1
+}
