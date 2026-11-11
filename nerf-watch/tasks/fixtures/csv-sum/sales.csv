@@ -1,0 +1,6 @@
+order,amount,status
+1,120.50,paid
+2,75.00,refunded
+3,200.00,paid
+4,15.25,paid
+5,300.00,pending
