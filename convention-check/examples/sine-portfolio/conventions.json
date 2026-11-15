@@ -1,0 +1,162 @@
+{
+  "root": "sine-portfolio",
+  "measured": {
+    "js_files": 94,
+    "js_lines": 8018,
+    "py_files": 1,
+    "py_lines": 233
+  },
+  "rules": [
+    {
+      "id": "JS-DECL",
+      "dimension": "declarations",
+      "expected": "const",
+      "evidence": "const 1821 of 2187 declarations (83%); let 355, var 11",
+      "scope": "repo",
+      "note": "var survives only as listed outliers, if any.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-QUOTES",
+      "dimension": "quotes",
+      "expected": "single",
+      "evidence": "single quotes 2425 of 2654 (91%)",
+      "scope": "repo",
+      "note": "The other quote style is allowed inside a string that contains the dominant quote character. The double quotes that remain cluster in HTML template strings and regexes, so this rule is advisory: the checker reports it but does not fail on it. Quote style is a formatter's job.",
+      "enforced_by": "checker",
+      "severity": "advisory"
+    },
+    {
+      "id": "JS-SEMI",
+      "dimension": "semicolons",
+      "expected": "semicolons",
+      "evidence": "4078 lines end with ';' (92% of statement lines)",
+      "scope": "repo",
+      "note": "Line-based checks are too noisy for this one \u2014 enforce it with a formatter, not the checker.",
+      "enforced_by": "formatter",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-NAME",
+      "dimension": "file naming",
+      "expected": "kebab-case, except a file defining one class takes that class's PascalCase name",
+      "evidence": "kebab 57, PascalCase 30 \u2014 28 of the PascalCase files define a class of the same name",
+      "scope": "repo",
+      "note": "Files whose names a framework dictates (e.g. _middleware.js) are exempt.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-NOLOG",
+      "dimension": "logging",
+      "expected": "no console.log",
+      "evidence": "0 console.log calls across the whole directory; console.warn appears 2 time(s)",
+      "scope": "apps",
+      "note": "Progress output belongs in scripts/, not shipped code.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-NOLOG",
+      "dimension": "logging",
+      "expected": "no console.log",
+      "evidence": "0 console.log calls across the whole directory",
+      "scope": "functions",
+      "note": "Progress output belongs in scripts/, not shipped code.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-NOLOG",
+      "dimension": "logging",
+      "expected": "no console.log",
+      "evidence": "0 console.log calls across the whole directory",
+      "scope": "src",
+      "note": "Progress output belongs in scripts/, not shipped code.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "JS-ESM",
+      "dimension": "modules",
+      "expected": "ESM import/export, no require()",
+      "evidence": "212 import statements, 0 require() calls",
+      "scope": "repo",
+      "note": "",
+      "enforced_by": "checker",
+      "severity": "hard"
+    },
+    {
+      "id": "GIT-MSG",
+      "dimension": "commit messages",
+      "expected": "Area: summary",
+      "evidence": "35 of 37 non-merge commits carry an Area: prefix (95%); top areas: Blog 25, Loader 5, Add blog post 2",
+      "scope": "repo",
+      "note": "Merge commits are exempt.",
+      "enforced_by": "checker",
+      "severity": "hard"
+    }
+  ],
+  "outliers": {
+    "var_files": {
+      "scripts/lib/blog.js": 11
+    }
+  },
+  "mixed": {
+    "errors_by_dir": {
+      "apps": {
+        "throw": 4,
+        "return_null": 15,
+        "console_error": 1,
+        "process_exit": 0
+      },
+      "functions": {
+        "throw": 0,
+        "return_null": 0,
+        "console_error": 0,
+        "process_exit": 0
+      },
+      "scripts": {
+        "throw": 79,
+        "return_null": 15,
+        "console_error": 10,
+        "process_exit": 7
+      },
+      "server": {
+        "throw": 0,
+        "return_null": 0,
+        "console_error": 0,
+        "process_exit": 0
+      },
+      "src": {
+        "throw": 0,
+        "return_null": 9,
+        "console_error": 0,
+        "process_exit": 0
+      }
+    },
+    "logging_by_dir": {
+      "apps": {
+        "console_log": 0,
+        "console_warn": 2
+      },
+      "functions": {
+        "console_log": 0,
+        "console_warn": 0
+      },
+      "scripts": {
+        "console_log": 25,
+        "console_warn": 4
+      },
+      "server": {
+        "console_log": 5,
+        "console_warn": 0
+      },
+      "src": {
+        "console_log": 0,
+        "console_warn": 0
+      }
+    }
+  }
+}
