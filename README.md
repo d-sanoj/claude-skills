@@ -8,6 +8,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 - **Claude Code secret-leak guard** — [claude-guard](claude-guard): audit a repo for secrets Claude Code's "Don't Ask Again" saved into settings files, and fix them. Second skill in this repo.
 - **Model regression watcher** — [nerf-watch](nerf-watch): a frozen 8-task suite that scores your coding agent week to week, so when a model "feels nerfed" you have a number instead of a vibe. Third skill in this repo.
 - **Test prover** — [prove-the-tests](prove-the-tests): make your coding agent prove its tests can fail — expected values from the requirement, red first, then a mutation check that deliberately breaks the code. Fourth skill in this repo.
+- **Convention checker** — [convention-check](convention-check): make your coding agent write code that looks like yours — extract the conventions the repo already follows, measured with counts, and check the diff against them. Fifth skill in this repo.
 
 ## Install
 
