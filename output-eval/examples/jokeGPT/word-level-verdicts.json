@@ -1,0 +1,402 @@
+[
+  {
+    "text": "<unk>: \"<unk>\" I think he will have a few joke. \"to watch you\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What's the whole best morning? How do you hear about the <unk>? A: What do you call a <unk>? <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "You never really <unk> your coffee",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "When I think I get a good. The <unk> by a <unk>, but was <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "How did the <unk> favorite people? Because the car was the first kids are there: it..",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What do you call a new <unk>? <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "When I guess I'll go over the head to be the other day.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical sentence, no <unk>, but no setup or punchline - a fragment, not a joke."
+  },
+  {
+    "text": "What do you call a <unk> <unk>? <unk> <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "How do you get a joke? I think <unk> are <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "My dad says \"<unk>, I was just going to play it!\" It's a bar \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I like <unk>, you're not a people............ I was a <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "<unk>? You get some dog.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What do you call a man? A <unk> <unk> <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I want to be a <unk> for the morning......................... He can't hear about the road.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What is the road? A bar. <unk> - <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "Why did the difference between a people? <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I have to <unk>.............. <unk>......",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I just like my wife because I got a horse in his <unk> <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "Did you mean you need? So you see a good joke!",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, no <unk>, but two plain statements - no setup or punchline."
+  },
+  {
+    "text": "I was always been a car and a horse and I get an <unk> in the other% of <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "The <unk>, <unk> is the <unk>, I have a bar.................................. and the <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What do you call a guy of the time? A <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "When I do you.",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Only 14 chars, fragment 'When I do you.' - fails complete length and coherence."
+  },
+  {
+    "text": "My kids is my <unk> & amp] My car is not a <unk>.. It was <unk> this",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "So I got a lot of your baby, I can <unk>, I have one of the <unk>!",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I was like a man in the other, when he got a <unk> and my girlfriend? They would have a new <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I was been a blonde in their own the face.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ungrammatical ('I was been', 'in their own the face') - fails coherent; no punchline."
+  },
+  {
+    "text": "I told me I was a job a <unk> on the rest of the other <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What's a blind man with a Mexican? <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "My wife said \"I can know, you're a new <unk> for all a bar",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "My wife is....... and a gay is been good time.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ungrammatical ('is been good time') - fails coherent; no punchline."
+  },
+  {
+    "text": "Knock I never have a bar \"You're him to work for <unk>, but the other is going to the first time that the day.\" Then, I was the <unk> \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "If a Mexican man gets in the same................... They're just like a <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What did the other day to her wife is a good? A <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What is the difference between a <unk>? Why do people? A: <unk>? Because it was going when he was.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What do you call a new car and a <unk> a <unk>? <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "The <unk>: I know the car was the time that?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What is the <unk> favorite <unk>? A <unk>. But if you like, <unk> are not <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What do you call a black dog with a bar? Just got a <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I think I don't know this is not not good.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical plain statement, no <unk>, but no setup or punchline."
+  },
+  {
+    "text": "Why didn't the <unk> <unk> in school? A <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What's the difference between it and a joke? A <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "A man in his <unk>....... \"\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What's a woman and a <unk> and a <unk> in the rest of their <unk>? <unk> that?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "I can't tell you that it and \"We are <unk> them..\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What does the difference between a car and the difference between \"in a man who who were a <unk>?\" <unk>. \"It is there, it's a <unk>.\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What did the best thing about the <unk>? <unk>? <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "Why can't you call a <unk>? \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "What is the <unk> does it take to be a <unk>? A: I'm having a <unk> with a little <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  },
+  {
+    "text": "Who is a guy on the woman? A <unk>!",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> - fails coherent, so cannot be good; no punchline delivered."
+  }
+]
