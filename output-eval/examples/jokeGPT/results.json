@@ -1,0 +1,76 @@
+{
+  "runs": [
+    {
+      "run_id": "word-level",
+      "gate3": "joke_shaped",
+      "counts": {
+        "n": 50,
+        "complete": 31,
+        "coherent": 3,
+        "joke_shaped": 0,
+        "good": 0
+      },
+      "pct": {
+        "complete": 62.0,
+        "coherent": 6.0,
+        "joke_shaped": 0.0,
+        "good": 0.0
+      },
+      "signals": {
+        "n_samples": 50,
+        "complete_pct": 62.0,
+        "duplicate_pct": 0.0,
+        "mean_chars": 59.6,
+        "mean_words": 12.8
+      }
+    },
+    {
+      "run_id": "word-level-50k",
+      "gate3": "joke_shaped",
+      "counts": {
+        "n": 50,
+        "complete": 34,
+        "coherent": 9,
+        "joke_shaped": 1,
+        "good": 0
+      },
+      "pct": {
+        "complete": 68.0,
+        "coherent": 18.0,
+        "joke_shaped": 2.0,
+        "good": 0.0
+      },
+      "signals": {
+        "n_samples": 50,
+        "complete_pct": 68.0,
+        "duplicate_pct": 0.0,
+        "mean_chars": 80.2,
+        "mean_words": 18.1
+      }
+    },
+    {
+      "run_id": "word-level-50k-big",
+      "gate3": "joke_shaped",
+      "counts": {
+        "n": 50,
+        "complete": 35,
+        "coherent": 4,
+        "joke_shaped": 0,
+        "good": 0
+      },
+      "pct": {
+        "complete": 70.0,
+        "coherent": 8.0,
+        "joke_shaped": 0.0,
+        "good": 0.0
+      },
+      "signals": {
+        "n_samples": 50,
+        "complete_pct": 70.0,
+        "duplicate_pct": 0.0,
+        "mean_chars": 79.4,
+        "mean_words": 18.0
+      }
+    }
+  ]
+}

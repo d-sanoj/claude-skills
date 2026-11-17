@@ -1,0 +1,402 @@
+[
+  {
+    "text": "How do you get a woman with me? I got a girl.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, odd; answer is not a punchline."
+  },
+  {
+    "text": "My wife said I had a bar. I just thought I'm too much.... but he was so much after that I took it.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled second half ('he was so much after that I took it')."
+  },
+  {
+    "text": "My joke I was the other day. It's that you should have a kid: We really have a new eyes.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'My joke I was the other day' is garbled; 'new eyes' ungrammatical."
+  },
+  {
+    "text": "When the doctor asked me at me. I don't have your father. He just got a child........................ \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote, not terminal punctuation; garbled."
+  },
+  {
+    "text": "How many fish are you with a Mexican? You know when I said I hate it.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, odd; answer has no twist."
+  },
+  {
+    "text": "What did the man tell a bar?.........",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Question trails off with dots; no punchline."
+  },
+  {
+    "text": "There does something to his face for the last time to the same place, and his dog has been so bad day..",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'There does something' and 'so bad day' are garbled."
+  },
+  {
+    "text": "What is the difference between a man and a woman? A black man is a light bulb and two people.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'difference between' format but the answer has no twist."
+  },
+  {
+    "text": "How do you take a bar about something as a lightbulb? Because it was the last night",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; no punchline."
+  },
+  {
+    "text": "A man walks into a bar............ \"You will kill you?\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I didn't be really great to be with her hair.. I had.............................. now it looks like to get it \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "What's the difference between a man and a man? To be a <unk>!",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; fails coherence by the rubric."
+  },
+  {
+    "text": "A pirate says \"I like my dad replies\" I said, \"I'm always like a good one\" \".\" The guy, \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I know what I was in a bar.. I had to go to stop a light bulb?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'I know what I was in a bar' does not compose into a readable sentence."
+  },
+  {
+    "text": "What does a new favorite man get that? A <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; no terminal punctuation."
+  },
+  {
+    "text": "Why did the road? They were the middle of the other.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'They were the middle of the other' is garbled."
+  },
+  {
+    "text": "If you have a lot of my kid is a girl who can't be a new kid? Because he has the other?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'If you have a lot of my kid is a girl' is garbled."
+  },
+  {
+    "text": "I had a man on the other one. I was all the other day.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'I was all the other day' is garbled."
+  },
+  {
+    "text": "How do you make a great baby a girl? \"Well,\" The guy gets off of you to his wife.. \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I was not called a light bulb I found a friend. And I can come in on her.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Run-on mash ('I was not called a light bulb I found a friend')."
+  },
+  {
+    "text": "The chicken was a woman to change a horse. The time they don't know.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Word salad with grammar ('chicken was a woman to change a horse')."
+  },
+  {
+    "text": "What did the new people say when he got the first time? A man has been a good person.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, odd; answer is not a punchline."
+  },
+  {
+    "text": "When a guy gets a man with a bar and then they have to get a bad face when he had a lightbulb. I'm pretty hard",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; garbled."
+  },
+  {
+    "text": "What would you call it if you get in a Mexican? A man that can't \"Why is the difference between a man and you?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Nested quotes, no sensible flow."
+  },
+  {
+    "text": "A man walks into a woman.. I was a bar............ and the world is a light bulb? \"I can't say\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I love the other........... I said \"And I guess that said\" I had a kid, \"No, I could have a man with this joke that, and I will tell you to take your head.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled throughout."
+  },
+  {
+    "text": "I got the best part of the road. A man was born..... because he had to be \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I want to get a lot of my own eyes",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; plain statement, not a joke."
+  },
+  {
+    "text": "What is a kid in common? \"I'm sorry, but a woman, but that's just an old.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'that's just an old' is a garbled fragment."
+  },
+  {
+    "text": "[for <unk>] A: What does a lightbulb? Me: I make you? Me: It's pretty nice. Me: I'll come in my time. Me: \"Oh I am.\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; ends with a quote."
+  },
+  {
+    "text": "What do you cross a dog with sex with a light bulb? A baby.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": true,
+    "good": false,
+    "note": "Cross-breeding setup with 'A baby' as the answer \u2014 the only sample with a punchline shape; but the setup is garbled ('cross a dog with sex with a light bulb')."
+  },
+  {
+    "text": "How many you call a pizza does it take to be a plane? \"My life, we had a cat.\" That's so I could say \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "Why are the black people for it? Because he is the first.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, odd; 'Because he is the first' is not a punchline."
+  },
+  {
+    "text": "What is a Mexican joke? A Jew................. I think you can't have to kill it out and be a lot of it.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled; the 'punchline' is a slur-ish fragment."
+  },
+  {
+    "text": "My wife said he made the same house.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical plain statement; no setup or punchline."
+  },
+  {
+    "text": "What do you call a tree with a Mexican with an Irish man? A: [in the house] * * * \"We will never need to the\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "The friend is a girl, the first? Just seen it.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'Just seen it' is a fragment; first sentence does not compose."
+  },
+  {
+    "text": "What does the difference between a Mexican guy? A man, a lightbulb are in the day and a cow.....",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled."
+  },
+  {
+    "text": "What do you call a lot of a dog? A: The same night.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'The same night' is not a punchline."
+  },
+  {
+    "text": "A dog is in a new legs and a bad day.. I'll get my own out the other to my phone.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'A dog is in a new legs and a bad day' is garbled."
+  },
+  {
+    "text": "My friend like my wife, the new man in my friend...",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'My friend like my wife' is ungrammatical; fragment."
+  },
+  {
+    "text": "I had a little than you have a long thing about in the time. What is the only one on the other? A man in the <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  },
+  {
+    "text": "Me: What do you call a little man? A: - old dog.. You know that he's a lot on the new old. One.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled ('A: - old dog..', 'a lot on the new old')."
+  },
+  {
+    "text": "What do you call a bar with a girl who was all a lightbulb? A: How do you do you find to call a bad? A: A: Don't have to do you",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; garbled."
+  },
+  {
+    "text": "My wife is the <unk> about his favorite thing they get back off from the other day.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  },
+  {
+    "text": "What kind of black men do before they do to the car? A man....... It was a bar..",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'What kind of black men do before they do to the car?' is garbled."
+  },
+  {
+    "text": "What do you call a long thing to do? A: \"* * * * * * gets more of me *",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with '*', no terminal punctuation; garbled."
+  },
+  {
+    "text": "Why was the first girl on the guy? Because she had to play the wrong.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical, odd; 'play the wrong' is not a punchline."
+  },
+  {
+    "text": "What do you call a long body? They got a group of her house.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'They got a group of her house' is not a punchline."
+  },
+  {
+    "text": "Who was a little woman to get a <unk> an entire time? The best thing about it is the last night in bed.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  }
+]

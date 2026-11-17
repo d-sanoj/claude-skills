@@ -17,3 +17,4 @@ Each skill folder has its own README with install steps. In general: copy the sk
 ## License
 
 Each skill folder carries its own license and attribution. Skills adapted from someone else's work say so in their README.
+- **Output evaluator** — [output-eval](output-eval): judge a generative model by its outputs, not its loss curve — a fixed three-gate rubric, 50 fixed-seed samples, and a scorer that tracks good% across runs. Sixth skill in this repo.

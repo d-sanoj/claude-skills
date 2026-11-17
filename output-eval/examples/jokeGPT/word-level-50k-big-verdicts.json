@@ -1,0 +1,402 @@
+[
+  {
+    "text": "How do you get a <unk>? They are talking to a girl",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; no terminal punctuation."
+  },
+  {
+    "text": "I'm going to make a joke about the day.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; a meta-statement, not a joke."
+  },
+  {
+    "text": "My girlfriend says \"I asked me if I would get the time the street with a lot of a new eyes.\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; 'I asked me if I would get the time the street' is garbled."
+  },
+  {
+    "text": "When I am not funny... I don't have your life.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "The 'When' clause never resolves into a sensible sentence."
+  },
+  {
+    "text": "How many fish does it take to change a light bulb? They both are you a light bulb and when the difference between an old man and a lightbulb? A cow says, he was a good at a lightbulb?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Classic setup, but the answer is word salad; no punchline."
+  },
+  {
+    "text": "What did the blonde say to the first woman who have a small way to the door?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'who have a small way to the door' is garbled; no answer given."
+  },
+  {
+    "text": "There does something called \"I'm going to get some year old\" - \"for this time I don't use\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "What is the difference between a man and a woman that will be a man with a black man? A black woman had a joke for a lot of dead.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Setup and answer both garbled ('had a joke for a lot of dead')."
+  },
+  {
+    "text": "How do you get a bar about something as a dog? Because it was the last night",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; 'Because it was the last night' is not a punchline."
+  },
+  {
+    "text": "A man walks into a bar.......... \"Hey\" You will kill you? \"No one of the other!\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "I didn't think they're gonna say I don't think I would give you a pizza for the way of them a man.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'for the way of them a man' is garbled."
+  },
+  {
+    "text": "What's the difference between a tree and a man in a lot of money? A man",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; 'A man' is not an answer."
+  },
+  {
+    "text": "A pirate says \"I like my dad replies\" no one says, \"I know how much.\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "A man walks into a bar and says \"What do you call the difference between a guy and a prostitute? A man is a tree and a new tree and a woman.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Nested question never answered; 'A man is a tree and a new tree and a woman' is word salad."
+  },
+  {
+    "text": "What does a lawyer say to the most of a <unk>? He was walking to the road.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  },
+  {
+    "text": "Why did the road cross the road? Because they had a <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  },
+  {
+    "text": "If you have a lot like to make a cat and a lot of a new room? Because they would be a big ones.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'If you have a lot like to make a cat' is garbled."
+  },
+  {
+    "text": "I had a new guy who got a <unk> - year..........................",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; fragment."
+  },
+  {
+    "text": "How do you make a great baby player? He has a black guy",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; 'He has a black guy' is not a punchline."
+  },
+  {
+    "text": "I was going to watch a new girl in my friend. And I can come back on her.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'watch a new girl in my friend' is garbled."
+  },
+  {
+    "text": "The old date is all the people in the end, and they don't know.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'The old date is all the people in the end' is word salad."
+  },
+  {
+    "text": "This is a lot like a big man, the first time, I could be a bad thing about a lot of a little little days.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Word salad."
+  },
+  {
+    "text": "When a little guy told me it was on the road? I am not sorry, I was a bad.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'I was a bad' is a fragment; the 'When' clause doesn't compose."
+  },
+  {
+    "text": "What would it be in the opposite of an hour and an American? It can't even.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'the opposite of an hour and an American' is garbled; 'It can't even' is a fragment."
+  },
+  {
+    "text": "A man walks into a bar.................. and the bartender asks, \"If you make your wife,\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; trails off mid-sentence."
+  },
+  {
+    "text": "I love the other day I was like it's a good place. How many people who was the way a good thing in her mom, and a bar is a lightbulb?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled throughout."
+  },
+  {
+    "text": "I got the best part of my ex - - - 1 / 11. 2.. 1: 1.. \"I didn't know what it is that one day!\"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; number soup."
+  },
+  {
+    "text": "I want to get a lot of people. He got <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>."
+  },
+  {
+    "text": "What is a baby and a bad girl? A lot of a lot, but the end of time you are very nice, then not allowed to me",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; garbled answer."
+  },
+  {
+    "text": "[for 2 year 3.. * takes a <unk> <unk> * * * * knock * * * * * * *",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; ends with '*'; pure noise."
+  },
+  {
+    "text": "What do you cross a dog with sex? A cat, a man........",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Echoes step 2's best sample but worse: 'A cat, a man' is not a punchline."
+  },
+  {
+    "text": "How many dog does it take to change a light paper? One to screw in the other day.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Closest to a real joke: the classic light-bulb format, but the punchline is mangled ('the other day' for 'the light bulb') and 'How many dog' is ungrammatical."
+  },
+  {
+    "text": "I'm very high on the same...... that I'm not a bad time.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Garbled."
+  },
+  {
+    "text": "What do you call a black man with no legs? A <unk>",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; no terminal punctuation."
+  },
+  {
+    "text": "My wife said he made at the doctor... It's a good person with her mom. I was a terrible hand.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'he made at the doctor' and 'I was a terrible hand' are garbled."
+  },
+  {
+    "text": "What do you call a pizza that don't have with an octopus? Nothing. It's going to do, we have a good at their body.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'that don't have with an octopus' is ungrammatical; 'we have a good at their body' is garbled."
+  },
+  {
+    "text": "The whole other guy who didn't the first one that the way to change the front of the road.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Word salad."
+  },
+  {
+    "text": "What does the difference between a Mexican guy with 2? A woman had a lightbulb!",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'What does the difference between a Mexican guy with 2?' is garbled; 'A woman had a lightbulb' is not a punchline."
+  },
+  {
+    "text": "I'm a new business joke...... you say but I am because it gets a good day",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "No terminal punctuation; garbled."
+  },
+  {
+    "text": "A boy and in the doctor says \"How do you take a lot?\" No, I don't you \"",
+    "complete": false,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Ends with a quote; garbled."
+  },
+  {
+    "text": "My friend told me that I was a man in my friend...",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'I was a man in my friend' is garbled; fragment."
+  },
+  {
+    "text": "I had a little restaurant from my wife told me to have a guy. What is the only one on the other?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'I had a little restaurant from my wife told me to have a guy' is garbled."
+  },
+  {
+    "text": "Me: What do you call a little dog who is to say to the time? You know that he's a lot on.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'who is to say to the time' and 'he's a lot on' are garbled."
+  },
+  {
+    "text": "What do you call a cow with a girl who gets married? In the wrong.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'In the wrong' is not a punchline."
+  },
+  {
+    "text": "A blonde is the <unk>.... they get that you are <unk> for one.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk> twice."
+  },
+  {
+    "text": "What does the black guy do before he cross his wife? One's a <unk>.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Contains <unk>; 'before he cross' is ungrammatical."
+  },
+  {
+    "text": "What do you call a baby that one of a great person? A man comes in the road and the other.",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'that one of a great person' is garbled."
+  },
+  {
+    "text": "Why was the first girl on the guy that his car is being on the wrong day?",
+    "complete": true,
+    "coherent": false,
+    "joke_shaped": false,
+    "good": false,
+    "note": "'the first girl on the guy that his car is being on the wrong day' is garbled."
+  },
+  {
+    "text": "What does a little Mexican say? The first guy who got in her house!",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'The first guy who got in her house' is not a punchline."
+  },
+  {
+    "text": "Who was a little woman in the end? You do.",
+    "complete": true,
+    "coherent": true,
+    "joke_shaped": false,
+    "good": false,
+    "note": "Grammatical; 'You do' is not a punchline."
+  }
+]
