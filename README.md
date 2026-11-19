@@ -9,6 +9,8 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 - **Model regression watcher** — [nerf-watch](nerf-watch): a frozen 8-task suite that scores your coding agent week to week, so when a model "feels nerfed" you have a number instead of a vibe. Third skill in this repo.
 - **Test prover** — [prove-the-tests](prove-the-tests): make your coding agent prove its tests can fail — expected values from the requirement, red first, then a mutation check that deliberately breaks the code. Fourth skill in this repo.
 - **Convention checker** — [convention-check](convention-check): make your coding agent write code that looks like yours — extract the conventions the repo already follows, measured with counts, and check the diff against them. Fifth skill in this repo.
+- **Output evaluator** — [output-eval](output-eval): judge a generative model by its outputs, not its loss curve — a fixed three-gate rubric, 50 fixed-seed samples, and a scorer that tracks good% across runs. Sixth skill in this repo.
+- **Commit crafter** — [commit-craft](commit-craft): make your coding agent write commits like a senior engineer — one logical change per commit, a subject under 72 characters, a body under five lines, no tool credit, and a checker that gates the commit instead of trusting a line in CLAUDE.md. Seventh skill in this repo.
 
 ## Install
 
@@ -17,4 +19,3 @@ Each skill folder has its own README with install steps. In general: copy the sk
 ## License
 
 Each skill folder carries its own license and attribution. Skills adapted from someone else's work say so in their README.
-- **Output evaluator** — [output-eval](output-eval): judge a generative model by its outputs, not its loss curve — a fixed three-gate rubric, 50 fixed-seed samples, and a scorer that tracks good% across runs. Sixth skill in this repo.
