@@ -12,6 +12,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 - **Output evaluator** — [output-eval](output-eval): judge a generative model by its outputs, not its loss curve — a fixed three-gate rubric, 50 fixed-seed samples, and a scorer that tracks good% across runs. Sixth skill in this repo.
 - **Commit crafter** — [commit-craft](commit-craft): make your coding agent write commits like a senior engineer — one logical change per commit, a subject under 72 characters, a body under five lines, no tool credit, and a checker that gates the commit instead of trusting a line in CLAUDE.md. Seventh skill in this repo.
 - **Log triager** — [log-triage](log-triage): find the real cause of a failing build before fixing anything — first real error, traceback as one unit, summaries are not causes — with a script that does the mechanical part. Eighth skill in this repo.
+- **Scope guard** — [scope-guard](scope-guard): keep your coding agent inside the scope it declared — a declared scope, a baseline, and a checker that gates the diff instead of trusting a line in CLAUDE.md. Ninth skill in this repo.
 
 ## Install
 
