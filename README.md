@@ -13,6 +13,7 @@ A collection of Claude skills I build and improve. Each folder is one skill, wit
 - **Commit crafter** — [commit-craft](commit-craft): make your coding agent write commits like a senior engineer — one logical change per commit, a subject under 72 characters, a body under five lines, no tool credit, and a checker that gates the commit instead of trusting a line in CLAUDE.md. Seventh skill in this repo.
 - **Log triager** — [log-triage](log-triage): find the real cause of a failing build before fixing anything — first real error, traceback as one unit, summaries are not causes — with a script that does the mechanical part. Eighth skill in this repo.
 - **Scope guard** — [scope-guard](scope-guard): keep your coding agent inside the scope it declared — a declared scope, a baseline, and a checker that gates the diff instead of trusting a line in CLAUDE.md. Ninth skill in this repo.
+- **Flake hunter** — [flake-hunt](flake-hunt): find the flaky test before it eats your morning — run the suite N times, name every test that changed its answer, isolate each suspect alone, and quarantine what it finds. Tenth skill in this repo.
 
 ## Install
 
